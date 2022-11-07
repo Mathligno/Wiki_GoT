@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+.header_menu{   
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.header_menu a{
+    margin: 1em;
+    border-radius: 0.4em;
+}
+.header_menu a:link, a:visited{
+    display: inline-block;
+    background-color: #A9A9A9;
+    color: #8b0000;
+    font-weight: bolder;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none; 
+}
+.header_menu a:hover, a:active{
+    background-color: #8b0000;
+    color: white;
+    font-weight: bolder;
+}
+main{
+    margin: 3em;
+}
+body{
+    background-image: url("https://images.expothemes.com/game-of-thrones/images/game-of-thrones-windows-theme-30-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+.sinopse h2, .trailer h2, .curiosidades h2{
+    text-align: center;
+}
+.trailer iframe{
+    width: 25em;
+    height: 15em;
+}
+.curiosidades{
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+.curiosidades ul{
+    margin: 0em 0em 0em 1em;
+}
+.curiosidades p{
+    margin: 1em 2em 1em 2em;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.copyright{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin: 1em;
+}
+.copyright img{
+    margin: 0.2em;
+    width: 15px;
+    height: 15px;
+}
+.copyright p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer_menu{
+    display: flex;
+    flex-direction: column;
+    margin: 0em 0em 0em 15em;
+
+}
+.footer_logo{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.footer_logo img{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+.footer_logo a{
+    width: 0em;
+    height: 0em;
+}
+.footer_logo #img1{
+    margin: 1em 1em 1em 2em;
+}
+.footer_logo #img2{
+    margin: 1em 0em 1em 6em;
+}
+.footer_logo #img3{
+    margin: 1em 0em 1em 10.6em;
+}
+.footer_redes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.footer_redes p{
+    margin: 1em 1em 1em 1em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer_redes #p1{
+    margin: 1em 1em 1em 1.5em;
+}
